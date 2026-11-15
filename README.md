@@ -45,6 +45,25 @@ The responsive dashboard includes:
 - A queue form for adding a meeting evaluation and CSV export of filtered records.
 - An error-category breakdown to make recurring issues easier to inspect.
 
+## Screenshots
+
+### Evaluation dashboard
+
+![Meeting summary evaluation dashboard with quality metrics, rubric dimensions, recent evaluations, and error categories](./screenshots/dashboard.png)
+
+### QMSum reference browser
+
+<table>
+  <tr>
+    <td><img src="./screenshots/qmsum-dataset.png" alt="QMSum dataset tab with browsable human reference summaries" width="100%"></td>
+    <td><img src="./screenshots/qmsum-reference-detail.png" alt="QMSum reference detail drawer with benchmark query, summary, and source link" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center">Browse the 35 reference summaries</td>
+    <td align="center">Inspect a query and reference</td>
+  </tr>
+</table>
+
 ### QMSum examples
 
 The dashboard includes **35 human reference summaries** from the official QMSum test splits: 9 Academic, 20 Product, and 6 Committee examples. QMSum contains 1,808 query-summary pairs over 232 meetings.
